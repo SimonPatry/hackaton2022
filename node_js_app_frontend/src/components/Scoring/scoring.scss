@@ -1,0 +1,58 @@
+.studentName{
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.detailsButton{
+  text-decoration: none;
+  color: white;
+}
+
+.detailsButton:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.formBlock{
+  width:100%;
+}
+.formBlock input{
+  margin-right: 5px
+}
+
+.human,
+.stats{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+
+
+.human h4{
+  width:100%;
+}
+
+.subHuman{
+  width:33%;
+  
+}
+
+.stats{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feedback{
+  width:49%;
+  
+}
+
+span{
+  color:purple
+}
