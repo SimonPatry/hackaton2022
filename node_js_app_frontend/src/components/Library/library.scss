@@ -1,7 +1,38 @@
-.dialogButtons:first-child{
-  margin-right: 5%;
+
+.docsContainer{
+  width:100%;
+  border-radius:1em;
+  padding:3em;
+  padding-top:0;
+  margin-top: 3em;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  background-color: #FFF7E2;
 }
 
-.dialogButtons:last-child{
-  margin-left: 5%;
+.card{
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius:1em;
+  width:30%;
+  text-align:center;
+  padding: 0.5em;
+  background-color: #DAF8C0;
+}
+
+.dl{
+  width:45%;
+  padding: 0.1em 0;
+  background-color: purple;
+  color:white;
+  border-radius:0.5em;
+  text-align:center;
+  font-size: 1.5em;
+  margin:0 27.5%;
+}
+
+.dl:hover {
+  background-color: blue;
+  color:white
 }

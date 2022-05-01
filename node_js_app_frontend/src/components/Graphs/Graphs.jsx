@@ -1,16 +1,25 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from "react";
 import { Radar, RadarChart, PolarGrid, 
     PolarAngleAxis, PolarRadiusAxis } from 'recharts';
+import VignUpContext from "../../context/VignUpContext";
 
-    const Gradar = (score) => {
-    console.log(score);
+const Gradar = (score) => {
+    const hum = (parseInt(score.score.exp) + parseInt(score.score.prop) + parseInt(score.score.assoc));
+    let humanScore = 0;
+    if (hum >= 8){
+        humanScore = 3;
+    }
+    else if (hum >= 5){
+        humanScore = 2;
+    }
+    else {
+        humanScore = 1;
+    }
     const data = [
         { name: 'rendement moyen', x: score.score.rdt },
         { name: 'type de sol', x: score.score.sol },
         { name: 'Nombre de parcelles', x: score.score.prc },
-        { name: 'Exploitant', x: score.score.exp },
-        // { name: 'Associés', x: score.score.assoc},
-        // { name: 'propriétaire', x: score.score.prop }
+        { name: 'Exploitant', x: humanScore },
     ];
 
     return (

@@ -1,11 +1,70 @@
-.vsl {
-    background-color: #DAF8C0;
-    padding: 1em;
-    border-radius: 2em
+.container{
+    
+    padding: 0;
 }
 
-.vsl a{
+button {
+    background-color: purple;
+    border: none;
+    padding-bottom:1em;
+}
+
+.raisin{
+    position: absolute;
+    bottom: -3em;
+    left: -3em ;
+    width:10%;
+    height:auto;
+}
+
+.homeContainer .img{
+    width:100%;
+    text-align:center;
+    margin: 0;
+}
+
+.container h2{
+    color:purple;
+}
+
+.vsl {
+    background-color: #DAF8C0;
+    padding: 3em;
+    border-radius: 2em;
+    position: relative;
+    margin: 2em 0;
+}
+
+.vsl div{
+    text-align: right;
+    text-decoration: none;
+    color: black; 
+}
+
+.scoring{
+    background-color: #FFF7E2;
+    padding: 3em;
+    border-radius: 2em;
+    position: relative;
+    margin: 2em 0;
+}
+
+.scoring div{
+    text-align: right;
+    text-decoration: none;
+    color: black; 
+}
+
+.witness {
     width: 100%;
+    background-color: #DAF8C0;
+    padding: 3em;
+    border-radius: 2em;
+    position: relative;
+    margin: 2em 0;
+}
+
+.witness div{
     text-align: right;
     text-decoration: none;
     color: black; 
