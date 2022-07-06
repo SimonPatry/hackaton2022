@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png"
 import raisin from "../../assets/img/raisin.png"
 import "./home.scss"
+import * as React from 'react';
 
 const Home = () => {
     return(

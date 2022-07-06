@@ -6,6 +6,7 @@ import Library from "./components/Library/Library";
 import Further from "./components/Further/Further";
 import Scoring from "./components/Scoring/Scoring";
 import Gradar from "./components/Graphs/Graphs";
+import Rad from "./components/Graphs/Radar";
 import Rdt from "./components/Scoring/Rdt";
 import Sol from "./components/Scoring/Sol";
 import Prc from "./components/Scoring/Prc";
@@ -48,6 +49,7 @@ const App = () => {
         newForm,
         fetchDataFromBdd,
         Gradar,
+        Rad,
         Rdt,
         Sol,
         Prc,

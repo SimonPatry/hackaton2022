@@ -19,7 +19,7 @@ const Scoring = () => {
         prop: 2
     }
 
-    const { modalStyle, fetchDataFromBdd, Gradar, Rdt, Sol, Prc, Human, Dpe, Global} = useContext(VignUpContext);
+    const { modalStyle, Gradar, Rad, Rdt, Sol, Prc, Human, Dpe, Global} = useContext(VignUpContext);
     const [newForm, setNewForm] = useState(emptyForm);
     const [allowBtn, setAllowBtn] = useState(true);
     const [graph, setGraph] = useState(false);
@@ -183,10 +183,12 @@ const Scoring = () => {
                         <div>
                             < Dpe dpe={note} />
                         </div>
-                        <div>
+                        {/* <div>
                             < Gradar score={newForm} />
+                        </div> */}
+                        <div>
+                            < Rad score={newForm} />
                         </div>
-                        
                     </div>
                 </div>
             </div>
